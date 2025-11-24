@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - MyClipVault</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #007AFF;
+            --primary-dark: #0051D5;
+            --text-primary: #1d1d1f;
+            --text-secondary: #6e6e73;
+            --bg-light: #f5f5f7;
+            --bg-white: #ffffff;
+            --border-color: #d2d2d7;
+            --shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+            --success-color: #34c759;
+            --warning-color: #ff9500;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background: var(--bg-light);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        header {
+            background: var(--bg-white);
+            padding: 40px 0;
+            margin-bottom: 40px;
+            box-shadow: var(--shadow);
+            border-radius: 16px;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 48px;
+            margin-bottom: 12px;
+        }
+
+        h1 {
+            font-size: 42px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+            letter-spacing: -0.5px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: var(--text-secondary);
+            font-weight: 400;
+        }
+
+        .content {
+            background: var(--bg-white);
+            padding: 50px;
+            border-radius: 16px;
+            box-shadow: var(--shadow);
+        }
+
+        h2 {
+            font-size: 28px;
+            font-weight: 600;
+            margin: 40px 0 20px 0;
+            color: var(--text-primary);
+            padding-bottom: 12px;
+            border-bottom: 2px solid var(--primary-color);
+        }
+
+        h2:first-child {
+            margin-top: 0;
+        }
+
+        h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 30px 0 15px 0;
+            color: var(--primary-color);
+        }
+
+        p {
+            margin: 16px 0;
+            color: var(--text-primary);
+            font-size: 16px;
+        }
+
+        ul, ol {
+            margin: 16px 0;
+            padding-left: 30px;
+        }
+
+        li {
+            margin: 10px 0;
+            color: var(--text-primary);
+            line-height: 1.7;
+        }
+
+        strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        .privacy-guarantee {
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            padding: 35px;
+            border-radius: 16px;
+            margin: 30px 0;
+            color: white;
+            text-align: center;
+        }
+
+        .privacy-guarantee h2 {
+            color: white;
+            border: none;
+            font-size: 32px;
+            margin: 0 0 20px 0;
+            padding: 0;
+        }
+
+        .privacy-guarantee p {
+            font-size: 18px;
+            margin: 10px 0;
+            opacity: 0.95;
+        }
+
+        .data-collection-table {
+            background: var(--bg-light);
+            padding: 25px;
+            border-radius: 12px;
+            margin: 25px 0;
+        }
+
+        .collection-item {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            margin: 10px 0;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .collection-item .icon {
+            font-size: 24px;
+            margin-right: 15px;
+            min-width: 40px;
+            text-align: center;
+        }
+
+        .collection-item .label {
+            flex: 1;
+            font-weight: 500;
+        }
+
+        .collection-item .status {
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .status.yes {
+            color: var(--success-color);
+        }
+
+        .status.no {
+            color: #ff3b30;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 25px;
+            border-radius: 12px;
+            margin: 25px 0;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .info-box {
+            background: #e3f2fd;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 25px 0;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .warning-box {
+            background: #fff4e6;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 25px 0;
+            border-left: 4px solid var(--warning-color);
+        }
+
+        .success-box {
+            background: #e8f5e9;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 25px 0;
+            border-left: 4px solid var(--success-color);
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+
+        .contact-email {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .contact-email:hover {
+            text-decoration: underline;
+        }
+
+        .last-updated {
+            background: var(--bg-light);
+            padding: 15px 25px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-align: center;
+        }
+
+        .rights-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 25px 0;
+        }
+
+        .right-item {
+            background: var(--bg-light);
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 3px solid var(--primary-color);
+        }
+
+        .right-item h4 {
+            color: var(--primary-color);
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+
+        .right-item p {
+            font-size: 14px;
+            margin: 0;
+            color: var(--text-secondary);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 15px;
+            }
+
+            .content {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 32px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+
+            .rights-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">🔒</div>
+            <h1>Privacy Policy</h1>
+            <p class="subtitle">MyClipVault - Smart Clipboard</p>
+        </header>
+
+        <div class="content">
+            <div class="last-updated">
+                <strong>Last Updated:</strong> November 23, 2025
+            </div>
+
+            <div class="privacy-guarantee">
+                <h2>🛡️ Our Privacy Promise</h2>
+                <p><strong>We do NOT access, read, or store your clipboard content.</strong></p>
+                <p>Your clipboard history stays on your device. We believe in privacy by design.</p>
+            </div>
+
+            <h2>Introduction</h2>
+            <p>This Privacy Policy explains how MyClipVault - Smart Clipboard ("we," "us," "our," or "the App") collects, uses, and protects your information. We are committed to protecting your privacy and being transparent about our data practices.</p>
+
+            <h2>What We Collect (and Don't Collect)</h2>
+
+            <div class="data-collection-table">
+                <div class="collection-item">
+                    <div class="icon">📋</div>
+                    <div class="label">Your clipboard content</div>
+                    <div class="status no">❌ NOT COLLECTED</div>
+                </div>
+
+                <div class="collection-item">
+                    <div class="icon">👤</div>
+                    <div class="label">Personal information (name, email, address)</div>
+                    <div class="status no">❌ NOT COLLECTED</div>
+                </div>
+
+                <div class="collection-item">
+                    <div class="icon">📍</div>
+                    <div class="label">Location data</div>
+                    <div class="status no">❌ NOT COLLECTED</div>
+                </div>
+
+                <div class="collection-item">
+                    <div class="icon">📱</div>
+                    <div class="label">Device identifiers (for subscriptions only)</div>
+                    <div class="status yes">✅ COLLECTED</div>
+                </div>
+
+                <div class="collection-item">
+                    <div class="icon">📊</div>
+                    <div class="label">Anonymous usage analytics</div>
+                    <div class="status yes">✅ COLLECTED</div>
+                </div>
+
+                <div class="collection-item">
+                    <div class="icon">💳</div>
+                    <div class="label">Subscription status</div>
+                    <div class="status yes">✅ COLLECTED</div>
+                </div>
+            </div>
+
+            <h2>Information We Collect</h2>
+
+            <h3>Clipboard Content</h3>
+            <div class="success-box">
+                <ul style="margin: 0;">
+                    <li><strong>Stored Locally:</strong> All clipboard items you save are stored locally on your device</li>
+                    <li><strong>Not Transmitted:</strong> We do NOT access, read, transmit, or store your clipboard content on our servers</li>
+                    <li><strong>Your Control:</strong> You have complete control over what clipboard items are saved</li>
+                    <li><strong>iCloud Sync (Pro users only):</strong> When enabled, clipboard data is encrypted and synced through YOUR personal iCloud account</li>
+                </ul>
+            </div>
+
+            <h3>Usage Analytics</h3>
+            <p>We collect limited, anonymized usage data through RevenueCat:</p>
+            <ul>
+                <li>Subscription status (free, monthly, yearly, lifetime)</li>
+                <li>Purchase events (subscribe, renew, cancel)</li>
+                <li>Device type and OS version</li>
+                <li>App version</li>
+                <li>General usage patterns (e.g., app opens, feature usage)</li>
+            </ul>
+
+            <h3>Purchase Information</h3>
+            <p>When you make a purchase:</p>
+            <ul>
+                <li><strong>Apple processes all payments</strong> - we never see your payment information</li>
+                <li><strong>RevenueCat stores:</strong> Anonymous customer ID, subscription status, transaction details</li>
+                <li><strong>We have access to:</strong> Purchase receipts, subscription status, subscription history</li>
+            </ul>
+
+            <h2>How We Use Your Information</h2>
+
+            <h3>Provide Services</h3>
+            <ul>
+                <li>Store and organize your clipboard history locally</li>
+                <li>Sync your clipboard across devices (Pro users with iCloud enabled)</li>
+                <li>Detect content types (URLs, emails, phone numbers, etc.)</li>
+                <li>Manage your subscription and entitlements</li>
+            </ul>
+
+            <h3>Improve the App</h3>
+            <ul>
+                <li>Analyze usage patterns to improve features</li>
+                <li>Fix bugs and technical issues</li>
+                <li>Develop new features based on usage data</li>
+                <li>Optimize app performance</li>
+            </ul>
+
+            <h2>Data Storage and Security</h2>
+
+            <h3>Local Storage</h3>
+            <div class="info-box">
+                <ul style="margin: 0;">
+                    <li>Clipboard items are stored in a local CoreData database on your device</li>
+                    <li>Data is protected by iOS security measures</li>
+                    <li>Data is encrypted at rest using iOS built-in encryption</li>
+                </ul>
+            </div>
+
+            <h3>iCloud Sync (Pro Users)</h3>
+            <ul>
+                <li>When enabled, clipboard data syncs through YOUR personal iCloud account</li>
+                <li>Data is encrypted in transit using Apple's encryption</li>
+                <li>Data is stored in your iCloud storage, not our servers</li>
+                <li><strong>We cannot access your iCloud data</strong></li>
+            </ul>
+
+            <h3>Third-Party Services</h3>
+            <p>We use the following third-party services:</p>
+
+            <div class="highlight-box">
+                <p><strong>RevenueCat</strong> (Subscription Management)</p>
+                <ul style="margin: 10px 0 0 0;">
+                    <li>Processes subscription data</li>
+                    <li>Stores anonymous customer IDs</li>
+                    <li>Privacy Policy: <a href="https://www.revenuecat.com/privacy" target="_blank" style="color: var(--primary-color);">https://www.revenuecat.com/privacy</a></li>
+                </ul>
+            </div>
+
+            <div class="highlight-box">
+                <p><strong>Apple</strong> (Payment Processing & Cloud Storage)</p>
+                <ul style="margin: 10px 0 0 0;">
+                    <li>Processes all payments through App Store</li>
+                    <li>Provides iCloud sync infrastructure</li>
+                    <li>Privacy Policy: <a href="https://www.apple.com/legal/privacy/" target="_blank" style="color: var(--primary-color);">https://www.apple.com/legal/privacy/</a></li>
+                </ul>
+            </div>
+
+            <h2>Your Rights</h2>
+
+            <div class="rights-list">
+                <div class="right-item">
+                    <h4>Access Your Data</h4>
+                    <p>View all clipboard items stored in the App and request information about your subscription data</p>
+                </div>
+
+                <div class="right-item">
+                    <h4>Delete Your Data</h4>
+                    <p>Delete individual items, clear all history, or uninstall the app to remove all local data</p>
+                </div>
+
+                <div class="right-item">
+                    <h4>Control Collection</h4>
+                    <p>Disable analytics, turn off iCloud sync, or revoke clipboard permissions</p>
+                </div>
+
+                <div class="right-item">
+                    <h4>Opt-Out</h4>
+                    <p>Disable usage analytics, crash reporting, and email communications</p>
+                </div>
+            </div>
+
+            <h2>California Privacy Rights (CCPA)</h2>
+            <p>If you are a California resident, you have the right to:</p>
+            <ul>
+                <li>Know what personal information we collect</li>
+                <li>Request deletion of your personal information</li>
+                <li>Opt-out of the sale of personal information <strong>(we do not sell data)</strong></li>
+                <li>Non-discrimination for exercising your rights</li>
+            </ul>
+
+            <h2>European Privacy Rights (GDPR)</h2>
+            <p>If you are an EU resident, you have the right to:</p>
+            <ul>
+                <li>Access your personal data</li>
+                <li>Rectify inaccurate data</li>
+                <li>Request deletion (right to be forgotten)</li>
+                <li>Restrict processing</li>
+                <li>Data portability</li>
+                <li>Object to processing</li>
+            </ul>
+
+            <h2>Children's Privacy</h2>
+            <div class="warning-box">
+                <ul style="margin: 0;">
+                    <li>The App is not directed at children under 13</li>
+                    <li>We do not knowingly collect data from children under 13</li>
+                    <li>If you believe a child has provided us with data, contact us immediately</li>
+                    <li>Parents can contact us to request deletion of their child's data</li>
+                </ul>
+            </div>
+
+            <h2>Data Retention</h2>
+
+            <h3>Clipboard Items</h3>
+            <ul>
+                <li><strong>Free users:</strong> Automatically deleted after 1,000 items or 30 days</li>
+                <li><strong>Pro users:</strong> No automatic deletion (unlimited storage)</li>
+                <li><strong>You can manually delete items at any time</strong></li>
+            </ul>
+
+            <h3>Subscription Data</h3>
+            <ul>
+                <li>Retained as long as your subscription is active</li>
+                <li>Retained for up to 1 year after subscription ends (for customer support)</li>
+                <li>Anonymous transaction data may be retained longer for financial records</li>
+            </ul>
+
+            <h2>Security Measures</h2>
+            <p>We implement security measures to protect your data:</p>
+            <ul>
+                <li>iOS built-in encryption for local storage</li>
+                <li>HTTPS/TLS for network communications</li>
+                <li>Secure authentication for iCloud sync</li>
+                <li>Regular security audits</li>
+                <li>Limited data collection to minimize risk</li>
+            </ul>
+
+            <div class="warning-box">
+                <p><strong>Important:</strong> No method of transmission or storage is 100% secure. We cannot guarantee absolute security.</p>
+            </div>
+
+            <h2>Changes to This Privacy Policy</h2>
+            <ul>
+                <li>We may update this Privacy Policy from time to time</li>
+                <li>We will notify you of material changes through the App or via email</li>
+                <li>Continued use after changes constitutes acceptance</li>
+                <li>We will update the "Last Updated" date at the top</li>
+            </ul>
+
+            <h2>Contact Us</h2>
+            <p>If you have questions, concerns, or requests regarding this Privacy Policy or your data:</p>
+            <p><strong>Email:</strong> <a href="mailto:support@myclipvault.app" class="contact-email">support@myclipvault.app</a></p>
+            <p><strong>Response Time:</strong> We aim to respond within 48 hours</p>
+
+            <div class="success-box" style="margin-top: 50px;">
+                <h3 style="margin-top: 0; color: var(--success-color);">Privacy Summary</h3>
+                <p><strong>What we collect:</strong> Minimal usage analytics and subscription data</p>
+                <p><strong>What we DON'T collect:</strong> Your clipboard content, personal information</p>
+                <p><strong>Where data is stored:</strong> Locally on your device, optionally in YOUR iCloud</p>
+                <p><strong>Who can access your data:</strong> Only you (we cannot access your clipboard content)</p>
+                <p style="margin: 0;"><strong>Your control:</strong> Full control to delete data anytime</p>
+            </div>
+
+            <div class="privacy-guarantee" style="margin-top: 30px;">
+                <p style="font-size: 16px; margin: 0;"><strong>We believe in privacy by design. Your clipboard content stays on your device.</strong></p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 MyClipVault. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
