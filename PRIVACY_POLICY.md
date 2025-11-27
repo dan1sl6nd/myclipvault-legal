@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last Updated: November 23, 2025**
+**Last Updated: November 27, 2025**
 
 ## Introduction
 
@@ -16,7 +16,7 @@ This Privacy Policy explains how MyClipVault - Smart Clipboard ("we," "us," "our
 
 ### Usage Analytics
 We collect minimal, anonymized usage data:
-- Subscription status (free, weekly, yearly)
+- Subscription status (weekly, yearly)
 - Purchase events (subscribe, renew, cancel)
 - Device type and OS version
 - App version
@@ -100,8 +100,7 @@ We use the following third-party services:
 
 ### Clipboard Items
 - Stored indefinitely on your device (or until you delete them)
-- Free users: Automatically deleted after 1,000 items or 30 days
-- Pro users: No automatic deletion (unlimited storage)
+- No automatic deletion (unlimited storage with subscription)
 - You can manually delete items at any time
 
 ### Subscription Data
@@ -113,7 +112,7 @@ We use the following third-party services:
 To delete all your data:
 1. Uninstall the App from your device
 2. If using iCloud sync: Disable iCloud for the App in Settings → iCloud
-3. Contact us at support@myclipvault.app to request deletion of subscription records
+3. Contact us at dan1sl6nd@gmail.com to request deletion of subscription records
 
 ## Your Rights
 
@@ -161,7 +160,7 @@ If you are a California resident, you have the right to:
 - Opt-out of the sale of personal information (we do not sell data)
 - Non-discrimination for exercising your rights
 
-To exercise these rights, contact us at support@myclipvault.app
+To exercise these rights, contact us at dan1sl6nd@gmail.com
 
 ## European Privacy Rights (GDPR)
 
@@ -223,7 +222,7 @@ In the event of a data breach:
 
 If you have questions, concerns, or requests regarding this Privacy Policy or your data:
 
-**Email**: support@myclipvault.app
+**Email**: dan1sl6nd@gmail.com
 **Response Time**: We aim to respond within 48 hours
 
 For privacy-related requests, please include:

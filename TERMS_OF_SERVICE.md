@@ -1,6 +1,6 @@
 # Terms of Service
 
-**Last Updated: November 23, 2025**
+**Last Updated: November 27, 2025**
 
 ## Agreement to Terms
 
@@ -16,22 +16,22 @@ MyClipVault is a clipboard manager application that allows you to:
 
 ## Subscription Terms
 
-### Free Plan
-- Limited to 1,000 clipboard items
-- Basic clipboard history storage
-- Content type detection
+MyClipVault is a paid subscription app with the following plans:
 
-### Pro Subscription
-- **Monthly**: $4.99/month, auto-renews monthly
-- **Yearly**: $39.99/year, auto-renews yearly
-- **Lifetime**: $99.99, one-time purchase
+### Weekly Plan
+- **Price**: $4.99/week
+- Auto-renews weekly
+
+### Yearly Plan
+- **Price**: $29.99/year
+- Auto-renews yearly
 
 ### Subscription Features
 - Unlimited clipboard history
-- Cloud sync across devices
-- Advanced detection features
-- Smart folders
-- Priority support
+- Cloud sync across devices via iCloud
+- Advanced content type detection
+- Smart organization
+- Full access to all features
 
 ### Auto-Renewal
 - Subscriptions automatically renew unless auto-renew is turned off at least 24 hours before the end of the current period
@@ -52,7 +52,7 @@ MyClipVault is a clipboard manager application that allows you to:
 
 ### Data Storage
 - Clipboard items are stored locally on your device
-- Pro users with cloud sync enabled store encrypted data in iCloud
+- Subscribers with cloud sync enabled store encrypted data in iCloud
 - We do not access, read, or store your clipboard content on our servers
 
 ### Data Collection
@@ -107,7 +107,7 @@ TO THE MAXIMUM EXTENT PERMITTED BY LAW:
 The App uses Apple's services:
 - **StoreKit 2**: Subscription and payment processing
 - **Apple In-App Purchase**: Payment processing
-- **iCloud**: Cloud sync (Pro users only)
+- **iCloud**: Cloud sync for subscribers
 
 All services are provided directly by Apple. Your use of these services is subject to Apple's terms and privacy policies. No third-party analytics or tracking services are used.
 
@@ -153,7 +153,7 @@ These Terms are governed by the laws of the United States, without regard to con
 
 If you have questions about these Terms, please contact us at:
 
-**Email**: support@myclipvault.app
+**Email**: dan1sl6nd@gmail.com
 
 ---
 
