@@ -28,9 +28,8 @@ MyClipVault is a paid subscription app with the following plans:
 
 ### Subscription Features
 - Unlimited clipboard history
-- Cloud sync across devices via iCloud
 - Advanced content type detection
-- Smart organization
+- Smart organization and search
 - Full access to all features
 
 ### Auto-Renewal
@@ -51,8 +50,8 @@ MyClipVault is a paid subscription app with the following plans:
 ## User Data and Privacy
 
 ### Data Storage
-- Clipboard items are stored locally on your device
-- Subscribers with cloud sync enabled store encrypted data in iCloud
+- Clipboard items are stored locally on your device only
+- No cloud sync or backup functionality
 - We do not access, read, or store your clipboard content on our servers
 
 ### Data Collection
@@ -107,7 +106,6 @@ TO THE MAXIMUM EXTENT PERMITTED BY LAW:
 The App uses Apple's services:
 - **StoreKit 2**: Subscription and payment processing
 - **Apple In-App Purchase**: Payment processing
-- **iCloud**: Cloud sync for subscribers
 
 All services are provided directly by Apple. Your use of these services is subject to Apple's terms and privacy policies. No third-party analytics or tracking services are used.
 

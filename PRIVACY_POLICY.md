@@ -13,7 +13,7 @@ This Privacy Policy explains how MyClipVault - Smart Clipboard ("we," "us," "our
 - **Stored Locally**: All clipboard items you save are stored locally on your device
 - **Not Transmitted**: We do NOT access, read, transmit, or store your clipboard content on our servers
 - **Your Control**: You have complete control over what clipboard items are saved
-- **iCloud Sync** (Pro users only): When enabled, clipboard data is encrypted and synced through your personal iCloud account
+- **No Cloud Sync**: Your data stays on your device and is never synced to any cloud service
 
 ### Usage Analytics
 We collect minimal, anonymized usage data:
@@ -51,7 +51,6 @@ We use collected information to:
 
 ### Provide Services
 - Store and organize your clipboard history locally
-- Sync your clipboard across devices (Pro users with iCloud enabled)
 - Detect content types (URLs, emails, phone numbers, etc.)
 - Manage your subscription and entitlements
 
@@ -78,20 +77,14 @@ We use collected information to:
 - Clipboard items are stored in a local CoreData database on your device
 - Data is protected by iOS security measures
 - Data is encrypted at rest using iOS built-in encryption
-
-### iCloud Sync (Pro Users)
-- When enabled, clipboard data syncs through YOUR personal iCloud account
-- Data is encrypted in transit using Apple's encryption
-- Data is stored in your iCloud storage, not our servers
-- We cannot access your iCloud data
+- All data remains on your device only
 
 ### Third-Party Services
 We use the following third-party services:
 
-**Apple** (Payment Processing, Subscription Management & Cloud Storage)
+**Apple** (Payment Processing & Subscription Management)
 - Processes all payments through App Store
 - Manages subscriptions through StoreKit 2
-- Provides iCloud sync infrastructure
 - Handles transaction verification and validation
 - Privacy Policy: https://www.apple.com/legal/privacy/
 
@@ -112,8 +105,7 @@ We use the following third-party services:
 ### Account Deletion
 To delete all your data:
 1. Uninstall the App from your device
-2. If using iCloud sync: Disable iCloud for the App in Settings → iCloud
-3. Contact us at dan1sl6nd@gmail.com to request deletion of subscription records
+2. Contact us at dan1sl6nd@gmail.com to request deletion of subscription records
 
 ## Your Rights
 
@@ -131,7 +123,6 @@ You have the right to:
 
 ### Control Data Collection
 - Disable analytics in Settings (if available)
-- Disable iCloud sync
 - Revoke clipboard access permissions (iOS Settings)
 
 ### Opt-Out
@@ -198,8 +189,7 @@ The App may contain links to third-party websites or services:
 
 We implement security measures to protect your data:
 - iOS built-in encryption for local storage
-- HTTPS/TLS for network communications
-- Secure authentication for iCloud sync
+- HTTPS/TLS for network communications with Apple's servers
 - Regular security audits
 - Limited data collection to minimize risk
 
@@ -245,7 +235,7 @@ By using MyClipVault, you consent to:
 
 **What we collect**: Minimal usage analytics and subscription data
 **What we DON'T collect**: Your clipboard content, personal information
-**Where data is stored**: Locally on your device, optionally in YOUR iCloud
+**Where data is stored**: Locally on your device only
 **Who can access your data**: Only you (we cannot access your clipboard content)
 **Your control**: Full control to delete data anytime
 
