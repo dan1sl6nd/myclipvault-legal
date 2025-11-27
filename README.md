@@ -4,13 +4,15 @@ This repository contains the legal documents for the MyClipVault iOS app.
 
 ## Documents
 
+- [Support & Help](SUPPORT.md)
 - [Terms of Service](TERMS_OF_SERVICE.md)
 - [Privacy Policy](PRIVACY_POLICY.md)
 
 ## Live URLs
 
-Once GitHub Pages is enabled, these documents will be available at:
+These documents are available at:
 
+- Support: `https://dan1sland.github.io/myclipvault-legal/SUPPORT`
 - Terms of Service: `https://dan1sland.github.io/myclipvault-legal/TERMS_OF_SERVICE`
 - Privacy Policy: `https://dan1sland.github.io/myclipvault-legal/PRIVACY_POLICY`
 
@@ -20,17 +22,18 @@ MyClipVault - Smart Clipboard is an iOS clipboard manager that helps you organiz
 
 **App Features:**
 - Smart clipboard history management
-- Automatic content type detection (URLs, emails, phone numbers, etc.)
+- Automatic content type detection (URLs, emails, phone numbers, addresses, dates, etc.)
 - Search and filter capabilities
-- Cloud sync (Pro users)
+- Quick actions for detected content
+- 100% private and offline
 - Unlimited history (Pro users)
 
 ## Contact
 
 For questions or concerns about these legal documents, please contact:
 
-**Email**: support@myclipvault.app
+**Email**: dan1sl6nd@gmail.com
 
 ---
 
-**Last Updated**: November 23, 2025
+**Last Updated**: November 27, 2024
