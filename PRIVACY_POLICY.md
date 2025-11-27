@@ -2,6 +2,7 @@
 
 **Last Updated: November 27, 2025**
 
+
 ## Introduction
 
 This Privacy Policy explains how MyClipVault - Smart Clipboard ("we," "us," "our," or "the App") collects, uses, and protects your information. We are committed to protecting your privacy and being transparent about our data practices.
