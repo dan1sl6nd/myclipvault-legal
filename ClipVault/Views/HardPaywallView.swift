@@ -91,6 +91,7 @@ struct HardPaywallView: View {
                             Text("Unlock")
                                 .font(.system(size: 32, weight: .black))
                                 .foregroundColor(.white)
+                                .multilineTextAlignment(.center)
                                 .minimumScaleFactor(0.7)
 
                             Text("MyClipVault Pro")
@@ -102,7 +103,8 @@ struct HardPaywallView: View {
                                         endPoint: .trailing
                                     )
                                 )
-                                .minimumScaleFactor(0.5)
+                                .multilineTextAlignment(.center)
+                                .minimumScaleFactor(0.3)
                                 .lineLimit(1)
                         }
                         .opacity(showCards ? 1 : 0)
@@ -461,7 +463,7 @@ struct SubscriptionPlanCard: View {
                                     endPoint: .trailing
                                 )
                             )
-                            .minimumScaleFactor(0.5)
+                            .minimumScaleFactor(0.3)
                             .lineLimit(1)
 
                         Text(pricePeriod)
